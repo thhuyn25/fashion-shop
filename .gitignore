@@ -1,0 +1,14 @@
+# Bỏ qua file kết nối cơ sở dữ liệu
+includes/db.php
+
+# Bỏ qua các file/thư mục tạm thời
+*.log
+/tmp/
+/cache/
+
+# Bỏ qua các file hệ thống
+.DS_Store
+Thumbs.db
+
+# Bỏ qua thư mục vendor (nếu dùng Composer sau này)
+/vendor/
